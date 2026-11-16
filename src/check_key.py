@@ -1,11 +1,12 @@
 """Verify RIOT_API_KEY in .env works. Never prints the key itself."""
 import os
 import sys
+from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 key = os.getenv("RIOT_API_KEY")
 if not key:
     sys.exit("RIOT_API_KEY is empty. Put it in .env")
