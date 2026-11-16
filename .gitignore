@@ -1,0 +1,16 @@
+# secrets
+.env
+
+# raw API data (do not commit)
+data/raw/*
+!data/raw/.gitkeep
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# os
+.DS_Store
