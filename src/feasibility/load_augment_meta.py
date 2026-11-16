@@ -7,6 +7,11 @@ Tables (rebuilt on every run):
 View:
   v_augment_modes    augment_meta + in_kiwi / in_kiwi_jade / in_cherry_list flags
 """
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import json
 from pathlib import Path
 
@@ -18,7 +23,7 @@ from db import get_engine
 
 BASE = "https://raw.communitydragon.org/latest"
 GD = f"{BASE}/plugins/rcp-be-lol-game-data/global"
-RAW = Path(__file__).resolve().parent.parent / "data" / "raw" / "cdragon"
+RAW = Path(__file__).resolve().parents[2] / "data" / "raw" / "cdragon"
 
 
 def fetch(url, name):

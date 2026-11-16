@@ -1,7 +1,9 @@
+name: poro-lab
+
 services:
   mysql:
     image: mysql:8.4
-    container_name: mayhem-mysql
+    container_name: poro-lab-mysql
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: ${MYSQL_DATABASE}

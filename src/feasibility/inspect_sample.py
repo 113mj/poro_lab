@@ -1,10 +1,15 @@
 """Inspect sample match JSON: where do augments / map info live?"""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import gzip
 import json
 from collections import Counter
 from pathlib import Path
 
-RAW = Path(__file__).resolve().parent.parent / "data" / "raw" / "sample"
+RAW = Path(__file__).resolve().parents[2] / "data" / "raw" / "sample"
 HINTS = ("aug", "map", "mode", "mayhem", "arena", "quest", "anvil", "perk", "role", "subteam")
 
 

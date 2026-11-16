@@ -4,6 +4,11 @@ Seeds : KR solo-queue ladder, a few players from each tier (recorded to data/raw
 Flow  : seeds -> recent queue-2400 match IDs -> dedupe -> match detail JSON (+ a few timelines)
 Resume: matches already saved on disk are skipped.
 """
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 import gzip
 import json
 import random
@@ -25,7 +30,7 @@ APEX = ["challengerleagues", "grandmasterleagues", "masterleagues"]
 DIVISION_TIERS = [("DIAMOND", "I"), ("EMERALD", "II"), ("PLATINUM", "II"),
                   ("GOLD", "II"), ("SILVER", "II"), ("BRONZE", "II")]
 
-OUT = Path(__file__).resolve().parent.parent / "data" / "raw" / "sample"
+OUT = Path(__file__).resolve().parents[2] / "data" / "raw" / "sample"
 MATCH_DIR = OUT / "matches"
 TL_DIR = OUT / "timelines"
 
