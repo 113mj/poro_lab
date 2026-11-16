@@ -43,7 +43,9 @@ class RiotClient:
                 return
             time.sleep(wait)
 
-    def get(self, host, path, params=None, max_retries=5):
+    def get(self, host, path, params=None, max_retries=5, forbidden_ok=False):
+        """forbidden_ok: return None on 403 (restricted matches, e.g. queue 2400)
+        instead of treating it as an invalid key."""
         url = f"https://{host}.api.riotgames.com{path}"
         for attempt in range(max_retries):
             self._wait_for_slot(host)
@@ -60,6 +62,8 @@ class RiotClient:
             if r.status_code in (500, 502, 503, 504):
                 time.sleep(2 ** attempt)
                 continue
+            if r.status_code == 403 and forbidden_ok:
+                return None
             if r.status_code in (401, 403):
                 raise RuntimeError(f"{r.status_code}: API key invalid or expired")
             raise RuntimeError(f"{r.status_code} on {path}: {r.text[:200]}")
