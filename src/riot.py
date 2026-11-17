@@ -49,7 +49,14 @@ class RiotClient:
         url = f"https://{host}.api.riotgames.com{path}"
         for attempt in range(max_retries):
             self._wait_for_slot(host)
-            r = self.session.get(url, params=params, timeout=15)
+            try:
+                r = self.session.get(url, params=params, timeout=15)
+            except requests.RequestException as e:
+                # network blip (timeout, DNS, connection reset): back off and retry
+                wait = min(60, 5 * 2 ** attempt)
+                print(f"  network error ({type(e).__name__}), retry in {wait}s")
+                time.sleep(wait)
+                continue
             if r.status_code == 200:
                 return r.json()
             if r.status_code == 404:

@@ -1,15 +1,17 @@
 -- ARAM (queue 450) collection schema. Idempotent: safe to run repeatedly.
 
--- Snowball frontier. status: pending -> done
+-- Snowball frontier, kept separately per patch. status: pending -> done
 CREATE TABLE IF NOT EXISTS players (
-    puuid        CHAR(78)    NOT NULL PRIMARY KEY,
-    source       VARCHAR(20) NOT NULL,          -- 'seed:<TIER>' or 'snowball'
+    patch        VARCHAR(8)  NOT NULL,
+    puuid        CHAR(78)    NOT NULL,
+    source       VARCHAR(20) NOT NULL,          -- 'seed:q<queue>' or 'snowball'
     depth        INT         NOT NULL,          -- 0 = seed, n = found n hops away
     found_in     VARCHAR(20) NULL,              -- match where this player was found
     status       VARCHAR(10) NOT NULL DEFAULT 'pending',
     n_ids        INT         NULL,              -- ARAM match IDs returned in the window
     updated_at   TIMESTAMP   NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    KEY idx_status_depth (status, depth)
+    PRIMARY KEY (patch, puuid),
+    KEY idx_patch_status (patch, status)
 );
 
 CREATE TABLE IF NOT EXISTS matches (
