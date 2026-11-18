@@ -25,3 +25,28 @@ patch,patch_label,champion_name,champion_ko,scope,applies_to_aram,direction,n_li
 16.22,26.22,Nami,나미,classic,no,buff,2,클래식 버전 Q 피해량·W 피해 감소율 조정,클래식(옛 버전 챔피언) 섹션 → 일반 칼바람에 없음. 대조군 유지
 16.22,26.22,Olaf,올라프,classic,no,buff,2,클래식 버전 W 추가 공격력·E 재사용 대기시간,클래식(옛 버전 챔피언) 섹션 → 일반 칼바람에 없음. 대조군 유지
 16.22,26.22,Rammus,람머스,classic,no,nerf,2,클래식 버전 기본 방어력·레벨당 공격력 감소,클래식(옛 버전 챔피언) 섹션 → 일반 칼바람에 없음. 대조군 유지
+16.21,26.21,Azir,아지르,rift,yes,buff,1,레벨당 마나 40→50,
+16.21,26.21,Darius,다리우스,rift,yes,buff,1,Q 재사용 대기시간 5레벨 5→4초,
+16.21,26.21,MissFortune,미스 포츈,rift,yes,buff,2,E 피해량 +20·R 치명타 피해 증가,오만 원거리 하향 보상
+16.21,26.21,Nunu,누누와 윌럼프,rift,yes,buff,1,R 최대 피해량 증가,아이템 하향 보상
+16.21,26.21,Orianna,오리아나,rift,yes,buff,2,Q·W 주문력 계수 +5%p,
+16.21,26.21,Ryze,라이즈,rift,yes,buff,3,Q 이동 속도·W 주문력 계수 증가,Q 전이 피해 혼합
+16.21,26.21,Sion,사이온,rift,yes,buff,2,레벨당 체력 87→95·R 초반 피해 증가,
+16.21,26.21,Taliyah,탈리야,rift,yes,buff,2,E 피해량·계수 증가,
+16.21,26.21,Velkoz,벨코즈,rift,yes,buff,1,패시브 피해량·계수 증가,
+16.21,26.21,XinZhao,신 짜오,rift,yes,buff,2,Q·E 계수 증가,
+16.21,26.21,Zyra,자이라,rift,yes,buff,1,W 씨앗 충전 시간 감소,
+16.21,26.21,Jinx,징크스,rift,yes,nerf,2,레벨당 공격력·기본 체력 감소,
+16.21,26.21,LeeSin,리 신,rift,yes,nerf,3,W 재사용 대기시간 7→8초·R 피해량 감소,E 버그 수정 포함
+16.21,26.21,Locke,로크,rift,yes,nerf,6,마나·W 하향 (E 소폭 상향),26.22에서 추가 하향
+16.21,26.21,Nidalee,니달리,rift,yes,nerf,2,W 피해량·E 공격 속도 감소,
+16.21,26.21,Qiyana,키아나,rift,yes,nerf,1,Q 피해량 -10,
+16.21,26.21,Rammus,람머스,rift,yes,nerf,2,W 방어력·마법 저항력 감소,
+16.21,26.21,Tristana,트리스타나,rift,yes,nerf,1,Q 초반 공격 속도 감소,
+16.21,26.21,Viktor,빅토르,rift,yes,nerf,2,이동 속도 335→330·Q 보호막 감소,26.22에서 상향
+16.21,26.21,Yone,요네,rift,yes,nerf,1,Q 계수 110→105%,
+16.21,26.21,Caitlyn,케이틀린,rift,yes,adjust,2,패시브 하향·Q 피해량 상향,
+16.21,26.21,Varus,바루스,rift,yes,adjust,8,"Q·W 구조 조정, 10/22 추가 상향",패치 중간 변경으로 효과 혼합
+16.21,26.21,MonkeyKing,오공,rift,yes,adjust,2,체력 재생 상향·패시브 방어력 하향,
+16.21,26.21,Taric,타릭,rift,yes,fix,4,대상 지정 불가 아군에게 스킬 사용 (수치 변화 없음),대조군 처리
+16.21,26.21,TwistedFate,트위스티드 페이트,rift,yes,fix,1,R이 대상 지정 불가 유닛을 드러냄 (수치 변화 없음),대조군 처리
