@@ -90,3 +90,40 @@ patch,scope,target_type,target,ability,stat,before,after
 16.21,rift,item,새벽심장 (6621),,기본 마나 재생 100%당 주문력,10,15
 16.21,rift,item,요새파괴자 (3181),,물리 관통력,22,18
 16.21,rift,item,요새파괴자 (3181),,성형작약 피해량,근접 50 / 원거리 25,근접 40 / 원거리 20
+16.20,rift,champion,Ambessa,패시브 - 용사냥개의 발걸음,피해량,5~30 (+추가 AD 25%),5~25 (+추가 AD 20%)
+16.20,rift,champion,Ashe,기본 능력치,레벨당 공격력,3.5,3
+16.20,rift,champion,Cassiopeia,기본 능력치,체력,630,610
+16.20,rift,champion,Cassiopeia,기본 능력치,마나,480,450
+16.20,rift,champion,Diana,W - 은빛 가호,보호막 추가 체력 계수,11%,14%
+16.20,rift,champion,Kennen,E - 번개 질주,추가 공격 속도,40/50/60/70/80%,50/60/70/80/90%
+16.20,rift,champion,Kindred,W - 늑대의 광기,몬스터 대상 피해 계수,150%,165%
+16.20,rift,champion,Kindred,E - 차오르는 공포,둔화 지속시간,1초,1.5초
+16.20,rift,champion,Kindred,E - 차오르는 공포,작은 몬스터 대상 지정,활성화,삭제
+16.20,rift,champion,KSante,W - 길을 여는 자,마나 소모량,40/45/50/55/60,45/50/55/60/65
+16.20,rift,champion,KSante,W - 길을 여는 자,피해량 감소,30/75%,25/70%
+16.20,rift,champion,Lillia,R - 감미로운 자장가,지속시간,2.5초,2.5/2.75/3초
+16.20,rift,champion,Lucian,기본 능력치,공격력,60 + 레벨당 2.5,60 + 레벨당 2.9
+16.20,rift,champion,Mordekaiser,Q - 말살,레벨 성장 (10~20레벨),레벨당 +5,레벨당 +7
+16.20,rift,champion,Mordekaiser,R - 죽음의 세계,재사용 대기시간,140/120/100초,120/110/100초
+16.20,rift,champion,Neeko,E - 칭칭올가미,기본 피해량,70/105/140/175/210,80/115/150/185/220
+16.20,rift,champion,Neeko,E - 칭칭올가미,강화 속박 지속시간,1.8/2.1/2.4/2.7/3초,2/2.25/2.5/2.75/3초
+16.20,rift,champion,Smolder,패시브 - 용 훈련,Q 추가 마법 피해,중첩의 25~55%,중첩의 25~60%
+16.20,rift,champion,Smolder,패시브 - 용 훈련,E 추가 마법 피해,중첩의 8~12.8%,중첩의 8~14%
+16.20,rift,champion,Smolder,R - 엄마아아아!,자신 체력 회복량,100/135/170 (+추가 AD 50%),100/175/250 (+추가 AD 75%)
+16.20,rift,champion,Swain,기본 능력치,마법 저항력,31,34
+16.20,rift,champion,Swain,기본 능력치,방어력,25,23
+16.20,rift,champion,Swain,W - 제국의 눈,피해량,70/105/140/175/210,70/115/160/205/250
+16.20,rift,champion,Swain,W - 제국의 눈,재사용 대기시간,22/21/20/19/18초,20/19/18/17/16초
+16.20,rift,champion,TahmKench,Q - 혀 채찍,기본 체력 회복량,10/13.75/17.5/21.25/25,10/20/30/40/50
+16.20,rift,champion,Vayne,기본 능력치,체력 재생,4 + 레벨당 0.5,5.5 + 레벨당 0.4
+16.20,rift,champion,Vayne,Q - 구르기,마나 소모량,46/42/38/34/30,30
+16.20,rift,champion,Yunara,Q - 영혼 단련,적중 시 피해량,5/10/15/20/25,3/8/13/18/23
+16.20,rift,champion,Yunara,W - 심판의 궤적,둔화 중첩,다른 둔화와 중첩,중첩 안 됨
+16.20,aram,champion,Belveth,칼바람 보정,입히는 피해량,105%,100%
+16.20,aram,champion,Belveth,칼바람 보정,받는 피해량,95%,100%
+16.20,aram,champion,Belveth,칼바람 보정,강인함,20%,0%
+16.20,aram,champion,Locke,칼바람 보정,입히는 피해량,105%,115%
+16.20,rift,item,실험적 마공학판 (3073),,원거리 효율,70%,50%
+16.20,rift,item,마법공학 로켓 벨트 (3152),,스킬 가속,20,10
+16.20,rift,item,마법공학 로켓 벨트 (3152),,사용 시 피해량,100 (+AP 10%),135 (+AP 15%)
+16.20,rift,item,루난의 허리케인 (3085),,탄환당 피해량,65%,60%

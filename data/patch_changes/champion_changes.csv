@@ -50,3 +50,21 @@ patch,patch_label,champion_name,champion_ko,scope,applies_to_aram,direction,n_li
 16.21,26.21,MonkeyKing,오공,rift,yes,adjust,2,체력 재생 상향·패시브 방어력 하향,
 16.21,26.21,Taric,타릭,rift,yes,fix,4,대상 지정 불가 아군에게 스킬 사용 (수치 변화 없음),대조군 처리
 16.21,26.21,TwistedFate,트위스티드 페이트,rift,yes,fix,1,R이 대상 지정 불가 유닛을 드러냄 (수치 변화 없음),대조군 처리
+16.20,26.20,Ambessa,암베사,rift,yes,nerf,1,패시브 피해량·계수 감소,
+16.20,26.20,Ashe,애쉬,rift,yes,nerf,1,레벨당 공격력 3.5→3,
+16.20,26.20,Cassiopeia,카시오페아,rift,yes,nerf,2,기본 체력·마나 감소,
+16.20,26.20,Diana,다이애나,rift,yes,buff,1,W 보호막 체력 계수 11→14%,
+16.20,26.20,Kennen,케넨,rift,yes,buff,1,E 추가 공격 속도 +10%p,로켓 벨트 하향 보상
+16.20,26.20,Kindred,킨드레드,rift,yes,buff,3,W 몬스터 피해·E 둔화 지속 증가,정글 관련 위주
+16.20,26.20,KSante,크산테,rift,yes,nerf,2,W 마나 증가·피해 감소량 하향,
+16.20,26.20,Lillia,릴리아,rift,yes,buff,1,R 지속시간 레벨별 증가,
+16.20,26.20,Lucian,루시안,rift,yes,buff,1,레벨당 공격력 2.5→2.9,
+16.20,26.20,Mordekaiser,모데카이저,rift,yes,buff,2,Q 성장·R 재사용 대기시간 개선,
+16.20,26.20,Neeko,니코,rift,yes,buff,2,E 피해량·속박 지속 증가,로켓 벨트 하향 보상
+16.20,26.20,Smolder,스몰더,rift,yes,buff,3,패시브 치명타 연동 피해·R 회복 증가,
+16.20,26.20,Swain,스웨인,rift,yes,buff,4,W 피해량·재사용 대기시간 상향,"마저 +3·방어력 -2 포함, 대체로 상향"
+16.20,26.20,TahmKench,탐 켄치,rift,yes,buff,1,Q 체력 회복량 증가,
+16.20,26.20,Vayne,베인,rift,yes,adjust,3,체력 재생 조정·Q 마나 감소,
+16.20,26.20,Yunara,유나라,rift,yes,nerf,3,Q 적중 피해 -2·W 둔화 중첩 불가,
+16.20,26.20,Belveth,벨베스,aram,yes,nerf,3,칼바람 보정: 입히는 피해 105→100%·받는 피해 95→100%·강인함 20→0%,칼바람 전용 보정치 변경
+16.20,26.20,Locke,로크,aram,yes,buff,1,칼바람 보정: 입히는 피해 105→115%,칼바람 전용 보정치 변경
