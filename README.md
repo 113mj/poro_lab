@@ -16,7 +16,7 @@
 - **칼바람 전용 보정치는 강한 손잡이다.** 실제 보정 변경 사례로 재면 보정치 1%p당 승률 약 0.6%p다.
 - **방법 검증:** 4개 패치 내내 강세로 잡힌 칼리스타는 26.23에서 Riot이 실제로 칼바람 보정을 하향했다.
 
-👉 [칼바람 조정 패치노트](reports/aram_patch_notes.md) · [분석 노트북](notebooks/02_patch_effects.ipynb)
+👉 [칼바람 조정 패치노트](reports/aram_patch_notes.md) · [노트북 안내](notebooks/README.md) · [분석 노트북 (nbviewer)](https://nbviewer.org/github/113mj/poro_lab/blob/main/notebooks/02_patch_effects.ipynb)
 
 ## 접근 방법
 
